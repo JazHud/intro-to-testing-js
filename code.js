@@ -4,5 +4,9 @@ const helloWorld = function() {
 }
 
 function sayHello(input){
-    return "Hello, Jane!";
+    if (input === "Alex"){
+        return "Hello, Alex!";
+    } else {
+        return "Hello, Jane!";
+    }
 }
